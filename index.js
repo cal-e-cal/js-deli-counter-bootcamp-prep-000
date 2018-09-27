@@ -26,5 +26,4 @@ function currentLine (katzDeliLine) {
       }
     }
     return "The line is currently: " + list;
-  }
 }
