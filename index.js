@@ -23,6 +23,9 @@ function currentLine (katzDeliLine) {
   } else {
     for (let i = 0; i < katzDeliLine.length; i++) {
       list.push (i+1 + ". " + katzDeliLine[i] + " ");
+      if (i < katzDeliLine.length) {
+        list.push (", ")
+      }
     }
     return "The line is currently: " + list;
   }
