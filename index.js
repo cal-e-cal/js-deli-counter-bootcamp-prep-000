@@ -20,11 +20,9 @@ function currentLine (katzDeliLine) {
   var list;
   if (katzDeliLine.length === 0) {
     return "The line is currently empty.";
-  } else if (katzDeliLine.length >= 1) {
-    
-  } else {katzDeliLine.length < 
+  } else {
     for (let i = 0; i < katzDeliLine.length; i++) {
-      list.push (i + "." + katzDeliLine[i]);
+      list.push (i + "." + katzDeliLine[i] + ", ");
     }
     return "The line is currently " + list;
   }
